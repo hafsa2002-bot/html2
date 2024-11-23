@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Golden Fork</title>
+	<style>
+		body{
+			margin:0;
+		}
+		nav{
+			display:flex;
+			gap:100px;
+			padding:20px;
+			background-color: #e7e9ec;
+		}
+		.search{
+			margin-top:12px;
+			height:30px;
+			width: 250px;
+		}
+		.Menu{
+			display:flex;
+			list-style-type: none;
+			gap:47px;
+			/*padding-top: 20px;
+			padding-bottom: 20px;*/
+			padding:20px;
+		}
+		a{
+			text-decoration-line: none;
+		}
+		.imag_menu{
+			width:200px;
+			height:200px;
+		}
+		.log_sign{
+			display:flex;
+			list-style-type: none;
+			gap: 30px;
+		}
+		footer{
+			background-color: #e7e9ec;
+			padding:20px;
+		}
+		.footer_list{
+			list-style-type: none;
+			display: flex;
+			gap: 63px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<img  src="gldn2.png" alt="logo">
+			<form>
+				<input type="search" class="search" name="search" placeholder="Search">
+				<button type="submit">Search</button>
+			</form>
+			<ul class="log_sign">
+				<li class="log"><a>LogIn</a> </li>
+				<li class="sign"><a>Sign Up</a></li>
+			</ul> 
+		</nav>
+		<ul class="Menu">
+			<li>
+				<img class="imag_menu" src="Appe.jpg">
+				<a href="#Appetizers">Appetizers</a>
+			</li>
+			<li>
+				<img class="imag_menu" src="https://bloximages.newyork1.vip.townnews.com/djournal.com/content/tncms/assets/v3/editorial/d/d1/dd11bcb0-fc17-5329-b8aa-895d0011918c/5fcfc53c6048f.image.jpg?resize=1396%2C930">
+				<a href="#MainCourses">Main Courses</a>
+			</li>
+			<li>
+				<img class="imag_menu" src="https://th.bing.com/th/id/OIP.AQhAszw4aO4jlGzEGjlBCgAAAA?w=450&h=404&rs=1&pid=ImgDetMain">
+				<a href="#soupSalade">Soups & Salads</a>
+			</li>
+			<li>
+				<img class="imag_menu" src="https://th.bing.com/th/id/OIP.q9VzMTOnnAu_3Q-IUGpc_wHaEo?w=800&h=500&rs=1&pid=ImgDetMain">
+				<a href="#KidsMenu">Kids' Menu</a>
+			</li>
+			<li>
+				<img class="imag_menu" src="https://hips.hearstapps.com/hmg-prod/images/shutterstock-558362194-1584038917.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=2048:*">
+				<a href="#Desserts">Desserts</a>
+			</li>
+		</ul>
+	</header>
+	<main>
+		<section>
+			<h3 id="Appetizers">Appetizers</h3>
+			<ul>
+				<li>
+					<strong>Stuffed Mushroom Caps :</strong>
+					<p>Button mushrooms filled with a savory blend of garlic, cream cheese, and herbs, baked to golden perfection.</p> 
+				</li>
+				<li>
+					<strong>Crispy Spring Rolls :</strong>
+					<p>Thin, crunchy wraps filled with a mix of veggies and glass noodles, served with sweet chili sauce</p> .</li>
+				<li>
+					<strong>Garlic Butter Shrimp Skewers :</strong>
+					<p>Juicy shrimp grilled and coated in garlic butter, topped with fresh parsley.</p> 
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h3 id="MainCourses">Main Courses</h3>
+			<ul>
+				<li>
+					<strong>Grilled Herb Chicken :</strong>
+					<p>Marinated chicken breast grilled to tender perfection, served with roasted vegetables and mashed potatoes.</p> 
+				</li>
+				<li>
+					<strong>Beef Stroganoff :</strong>
+					<p>Strips of tender beef cooked in a creamy mushroom sauce, served over buttery egg noodles.</p> 
+				</li>
+				<li>
+					<strong>Vegetarian Pasta Primavera :</strong>
+					<p>Colorful seasonal vegetables tossed with spaghetti in a light garlic and olive oil sauce.</p> 
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h3 id="Desserts">Desserts</h3>
+			<ul>
+				<li>
+					<strong>Molten Chocolate Lava Cake :</strong>
+					<p>Warm chocolate cake with a gooey center, served with a scoop of vanilla ice cream.</p> 
+				</li>
+				<li>
+					<strong>Classic Cheesecake :</strong>
+					<p>Smooth and creamy cheesecake on a graham cracker crust, topped with fresh berry compote.</p> 
+				</li>
+				<li>
+					<strong>Tiramisu Cups :</strong>
+					<p>Layers of coffee-soaked ladyfingers, mascarpone cream, and cocoa, served in individual glass cups.</p> 
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<ul class="footer_list">
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact us for reservations</a></li>
+			<li><a href="">Privacy Policy</a></li>
+		</ul>
+		<div>The Golden Fork &copy; 2024 - All rights reserved.</div>
+	</footer>
+</body>
+</html>
